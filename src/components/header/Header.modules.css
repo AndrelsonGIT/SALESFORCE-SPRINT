@@ -1,0 +1,54 @@
+@import url('../../index.css');
+*{
+    font-family: Metropolis;
+    padding: 0;
+    margin : 0;
+}
+
+header{
+    padding: 1rem 0;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    border-bottom: 0.5px solid gray;
+}
+.header_container{
+    display: flex;
+    margin: 0 7rem;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10rem;
+    margin-left: 10rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+img{
+    width: 5rem;
+    margin-left: 0.1rem;
+}
+
+ul{
+    display: flex;
+
+}
+
+li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+
+    flex-direction: row;
+}
+
+a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+li img{
+    width: 5%;
+}
+
+.liLeft{
+    margin-left: -27rem ;
+}

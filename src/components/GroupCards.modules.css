@@ -1,0 +1,11 @@
+.group_cards_container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group_card_container_center{
+    position: absolute;
+    left: 10%;
+}

@@ -1,0 +1,43 @@
+html {
+    font-size: 16px;
+}
+
+/* Use media queries para ajustar o tamanho da fonte com base no tamanho da tela */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* Agora, aplique os estilos para os botões usando rem */
+
+
+button:hover {
+    background-color: #20A0DF;
+    border: 1px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    color: white;
+}
+
+button{
+    padding: 1.2rem;
+    width: 20rem;
+    font-size: large;
+    background-color: white;
+    border: 1px solid #0176D3;
+}
+button:hover{
+    background-color: #20A0DF;
+    border: 1px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    color: white;
+
+}

@@ -1,0 +1,125 @@
+/**{*/
+/*    box-sizing: inherit;*/
+/*}*/
+/*body{*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.home .hero-home {*/
+/*    height: 400px;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+/*.has-background-light {*/
+/*    background-color: #ebf2f2 !important;*/
+/*}*/
+/*.hero {*/
+/*    align-items: stretch;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.home .relative {*/
+/*    position: relative;*/
+/*}*/
+
+/*.home .extra-container {*/
+/*    height: 400px;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.home .extra-left, .home .extra-right {*/
+/*    height: 600px;*/
+/*    position: absolute;*/
+/*    top: -110px;*/
+/*    width: 600px;*/
+/*}*/
+
+/*.home .extra-left {*/
+/*    border-radius: 50%;*/
+/*    left: -100px;*/
+/*}*/
+
+/*.home .extra-left .quarter-circle1 {*/
+/*    animation: fadeIn .4s ease-out .2s forwards;*/
+/*    transform: rotate(-140deg);*/
+/*}*/
+/*.home .quarter-circle1, .home .quarter-circle2 {*/
+/*    height: 300px;*/
+/*    opacity: 0;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 300px;*/
+/*}*/
+
+/*.home .quarter-circle1 {*/
+/*    background: #80ea6e;*/
+/*    border-radius: 100% 0 0 0;*/
+/*    left: 0;*/
+/*    transform-origin: bottom right;*/
+/*}*/
+
+/*.home .semicircle {*/
+/*    border-radius: 0 0 300px 300px;*/
+/*    left: 0;*/
+/*    transform: rotate(-140deg);*/
+/*    transform-origin: top center;*/
+/*    width: 600px;*/
+/*}*/
+/*.home .semicircle, .home .square {*/
+/*    animation: fadeIn .3s ease-out .6s forwards;*/
+/*    background: #fff;*/
+/*    height: 300px;*/
+/*    opacity: 0;*/
+/*    position: absolute;*/
+/*    top: 300px;*/
+/*}*/
+
+/*div{*/
+/*    display: block;*/
+/*}*/
+@import url("../../index.css");
+
+html {
+    font-size: 16px; /* Por exemplo, 16px */
+}
+
+/* Use media queries para ajustar o tamanho da fonte com base no tamanho da tela */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px; /* Por exemplo, 14px para telas menores que 768px */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 10px; /* Por exemplo, 12px para telas menores que 480px */
+    }
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+.salesforceMainMenu{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+
+.container_sales_menu{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.container_div_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
