@@ -3,7 +3,7 @@ import Card from "./Card.tsx";
 import cardPequenasEmpresas from "../assets/pequenas_empresas_card.webp";
 import cardVendas from "../assets/vendas_card.webp";
 import cardAtendimento from "../assets/atendimento_card.webp"
-import "./GroupCards.modules.css"
+import "./GroupCards.css"
 const GroupCards = ()=>{
     return(
         <>

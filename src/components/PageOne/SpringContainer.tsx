@@ -1,4 +1,4 @@
-import "./SpringContainer.modules.css"
+import "./SpringContainer.css"
 import salesforceMainMenu from "../../assets/salesforce_main_menu.jpeg"
 import ButtonSpring from "./ButtonSpring.tsx";
 const SpringContainer = () => {

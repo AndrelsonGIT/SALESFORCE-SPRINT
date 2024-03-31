@@ -29,14 +29,35 @@
 /*    src:url(/fonts/metropolis/metropolis-bold-webfont.woff2) format("woff2"),*/
 /*    url(/fonts/metropolis/metropolis-bold-webfont.woff) format("woff")*/
 /*}*/
-/*@font-face {*/
-/*    font-display:swap;*/
-/*    font-family:Metropolis;*/
-/*    font-style:normal;*/
-/*    font-weight:600;*/
-/*    src:url(/fonts/metropolis/metropolis-extrabold-webfont.woff2) format("woff2"),*/
-/*    url(/fonts/metropolis/metropolis-extrabold-webfont.woff) format("woff")*/
-/*}*/
+@font-face {
+    font-family: "Salesforce Regular";
+    src: url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.eot");
+    src: url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0fadaa21fcac88ceee0bb8da992c221b.svg#Salesforce Sans")format("svg");
+}
+
+@font-face {
+    font-family: "Salesforce Sans Bold";
+    src: url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.eot");
+    src: url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7ad0546573c86e39ebac906bd70a7198.svg#Salesforce Sans Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Salesforce Sans Light";
+    src: url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.eot");
+    src: url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.svg#Salesforce Sans Light")format("svg");
+}
 
 :root {
     --cor-primaria: #3498db;

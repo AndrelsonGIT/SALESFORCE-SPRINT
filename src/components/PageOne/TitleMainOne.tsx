@@ -1,5 +1,5 @@
 import React from "react";
-import "./TitleMainOne.modules.css"
+import "./TitleMainOne.css"
 
 interface TitleDescription{
     title:string,

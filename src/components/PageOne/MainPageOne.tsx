@@ -1,5 +1,5 @@
 import TitleMainOne from "./TitleMainOne.tsx";
-import "./MainPageOne.modules.css"
+import "./MainPageOne.css"
 import salesCloud from "../../assets/cloud_salesforce_hdplus.png"
 const MainPageOne = ()=>{
     const titleString = "O que é a Salesforce"

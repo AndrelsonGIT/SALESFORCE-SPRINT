@@ -1,9 +1,4 @@
 @import url('../../index.css');
-*{
-    font-family: Metropolis;
-    padding: 0;
-    margin : 0;
-}
 
 header{
     padding: 1rem 0;
@@ -11,28 +6,29 @@ header{
     height: 3rem;
     background-color: white;
     border-bottom: 0.5px solid gray;
+    font-family: "Salesforce Regular";
 }
 .header_container{
     display: flex;
     margin: 0 7rem;
     flex-direction: row;
     justify-content: left;
-    gap: 10rem;
+    gap: 5rem;
     margin-left: 10rem;
     align-items: center;
     box-sizing: border-box;
 }
-img{
+.header_img{
     width: 5rem;
     margin-left: 0.1rem;
 }
 
-ul{
+.header_ul{
     display: flex;
-
+    gap: 2rem;
 }
 
-li{
+.header_li{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -41,12 +37,12 @@ li{
     flex-direction: row;
 }
 
-a{
+.header_a{
     color: var(--cor-primaria);
     text-decoration: none;
 }
-li img{
-    width: 5%;
+.header_li img{
+    width: 1.5rem;
 }
 
 .liLeft{

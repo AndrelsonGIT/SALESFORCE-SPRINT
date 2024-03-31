@@ -1,5 +1,5 @@
 import React from "react";
-import "./ButtonSpring.modules.css"
+import "./ButtonSpring.css"
 
 interface ButtonProps{
     nome : string;

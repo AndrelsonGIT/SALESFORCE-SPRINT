@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.modules.css"
+import "./Card.css"
 
 interface cardProps{
     img:string;
