@@ -1,16 +1,18 @@
 @import url("../../index.css");
+body{
+    height: 800vh;
+}
+
 
 .title_main_one {
     margin-top: 12%;
 }
 
 .cloud_image{
-    width: 25%;
+    width: 20%;
     position: relative;
     left: 68%;
 }
-
-
 
 .title_card{
     font-size: 2.3rem;
@@ -21,4 +23,56 @@
     text-align: left;
     width: 30rem;
     color: var(--cor-primaria);
+}
+
+.group_card_app{
+    margin-top: -6rem;
+}
+
+.main_page_one_h3{
+    color: var(--cor-primaria);
+    margin: 20rem 2rem 6rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container_space{
+    width: 300px;
+    height: 30%;
+}
+
+.horizontal_box_text{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.some_question{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 1200px){
+    .main_page_one_h3{
+        margin-top: 18rem;
+    }
+}
+/*@media screen and (max-width: 780px){*/
+/*    .main_page_one_h3{*/
+/*        margin-top: 15rem;*/
+/*    }*/
+/*}*/
+@media screen and (max-width: 780px) {
+    .main_page_one_h3{
+        margin-top: 15rem;
+    }
+}
+@media screen and (max-width: 620px){
+    .horizontal_box_text{
+        margin-top: -80px;
+    }
+
+    .some_question{
+        margin-top: 50px;
+    }
 }
