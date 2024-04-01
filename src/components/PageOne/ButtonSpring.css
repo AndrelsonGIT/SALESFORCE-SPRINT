@@ -18,7 +18,7 @@ html {
 /* Agora, aplique os estilos para os botões usando rem */
 
 
-button:hover {
+.button_spring:hover {
     background-color: #20A0DF;
     border: 1px solid white;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -26,14 +26,29 @@ button:hover {
     color: white;
 }
 
-button{
+.button_spring{
     padding: 1.2rem;
     width: 20rem;
-    font-size: large;
+    font-size: 1.2rem;
     background-color: white;
     border: 1px solid #0176D3;
 }
-button:hover{
+
+@media screen and (max-width: 1400px){
+    .button_spring{
+        font-size: 0.9rem ;
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .button_spring{
+        width: 12rem;
+    }
+}
+
+
+.button_spring:hover{
     background-color: #20A0DF;
     border: 1px solid white;
     transition: background-color 0.3s ease, color 0.3s ease;

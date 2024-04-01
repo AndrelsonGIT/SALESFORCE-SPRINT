@@ -8,7 +8,7 @@ interface ButtonProps{
 const ButtonSpring : React.FC<ButtonProps> = ({nome}) =>{
     return(
         <>
-            <button className="button">{nome}</button>
+            <button className="button_spring">{nome}</button>
         </>
     )
 }
