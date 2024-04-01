@@ -13,9 +13,7 @@ function App() {
         <Header></Header>
         <SpringContainer></SpringContainer>
         <MainPageOne></MainPageOne>
-        <div className="group_card_app">
-            <GroupCards></GroupCards>
-        </div>
+
     </>
   )
 }
