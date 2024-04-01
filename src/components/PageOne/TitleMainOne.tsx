@@ -9,10 +9,8 @@ interface TitleDescription{
 const TitleMainOne : React.FC<TitleDescription> = ({title, description})=>{
     return(
         <div className="container">
-            <div>
-                <h2 className="title_h2">{title}</h2>
-                <p className="title_p">{description}</p>
-            </div>
+            <h2 className="title_h2">{title}</h2>
+            <p className="title_p">{description}</p>
         </div>
 
     )
