@@ -1,0 +1,40 @@
+.feedback_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.feedback_container img{
+    width: 5%;
+    margin-bottom: 30px;
+}
+.feedback_h3{
+    color: #0d99d5;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 2.5rem
+}
+.feedback_response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback_response p{
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.feedback_background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-top: 340px;
+}
+.feedback_background img{
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    width: 80%;
+}
