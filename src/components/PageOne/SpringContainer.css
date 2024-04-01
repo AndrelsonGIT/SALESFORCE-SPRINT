@@ -80,33 +80,20 @@
 /*}*/
 @import url("../../index.css");
 
-html {
-    font-size: 16px; /* Por exemplo, 16px */
-}
-
-/* Use media queries para ajustar o tamanho da fonte com base no tamanho da tela */
-@media screen and (max-width: 768px) {
-    html {
-        font-size: 12px; /* Por exemplo, 14px para telas menores que 768px */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    html {
-        font-size: 10px; /* Por exemplo, 12px para telas menores que 480px */
-    }
-}
 
 h1{
     font-size: 2.2rem;
+    font-family: "Salesforce Sans Bold";
 }
 
-.salesforceMainMenu{
-    width: 100%;
-    z-index: -1;
+.salesforce_main_menu_img{
+    width: 100vw;
+    height: 45%;
     position: absolute;
+    z-index: -1;
     top: 1rem;
     left: 0;
+
 }
 
 .container_sales_menu{
@@ -115,11 +102,57 @@ h1{
     gap: 2rem;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 8rem;
 }
 
 .container_div_buttons{
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+
+@media screen and (max-width: 1400px){
+    h1{
+        font-size: 1.8rem;
+    }
+    .container_sales_menu{
+        margin-top: 6rem;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .salesforce_main_menu_img{
+        height: 40%;
+    }
+}
+@media screen and (max-width: 780px){
+    .salesforce_main_menu_img{
+        height: 35%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .salesforce_main_menu_img{
+        height: 30%;
+    }
+}
+@media screen and (max-width: 550px){
+    .salesforce_main_menu_img{
+        height: 25%;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 1.3rem;
+    }
+    .container_sales_menu{
+        gap: 1rem;
+    }
+    .salesforce_main_menu_img{
+        height: 21%;
+    }
 }
