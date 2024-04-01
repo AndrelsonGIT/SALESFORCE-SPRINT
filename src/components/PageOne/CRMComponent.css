@@ -1,0 +1,74 @@
+
+
+.crm_container{
+    position: relative;
+    top:-50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.crm_container_text{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 0 5rem;
+    gap: 45px;
+}
+.crm_container_text h2{
+    font-family: "Salesforce Sans Bold";
+    font-size: 2.2rem;
+    color: #0d81d6;
+}
+.crm_container_text p{
+    color: var(--cor-primaria);
+    text-align: left;
+    font-size: 1.8rem;
+}
+.crm_container_text button{
+    background-color: transparent;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 2%;
+    width: 200px;
+    height: 70px;
+    padding: 0 45px;
+    color: var(--cor-secundaria);
+}
+.crm_container_text button:hover{
+    background-color: #0d81d6;
+    color: white;
+    transition: ease 0.5s;
+}
+
+@media screen and (max-width: 1250px){
+    /*.crm_container_text{*/
+    /*    width: 400px;*/
+    /*}*/
+    .crm_container img{
+        width: 30%;
+    }
+    .crm_container h2{
+        font-size: 1.9rem;
+    }
+    .crm_container p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 700px){
+    .crm_container_text{
+        margin-top: 8%;
+    }
+    .crm_container button{
+        width: 200px;
+        height: 40px;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .crm_container button{
+
+    }
+}
