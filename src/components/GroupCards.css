@@ -4,8 +4,17 @@
     align-items: center;
     justify-content: center;
 }
-
 .group_card_container_center{
-    position: absolute;
-    left: 10%;
+    position: relative;
+}
+
+@media screen and (max-width: 800px) {
+    .group_cards_container{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .group_cards_container img{
+        width: 32%;
+    }
+    
 }
