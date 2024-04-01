@@ -59,17 +59,55 @@
     url("https://db.onlinewebfonts.com/t/508929fcc9e25a992b90af5d639657c9.svg#Salesforce Sans Light")format("svg");
 }
 
+*{
+    font-family: "Salesforce Regular";
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --cor-primaria: #3498db;
     --cor-secundaria: #032D60;
     --espacamento: 10px;
-
-
 }
 
 h1, h3, h2, p{
     color: var(--cor-secundaria);
 }
+button{
+    cursor: pointer;
+}
+
+html {
+    font-size: 16px; /* Por exemplo, 16px */
+}
+
+/* Use media queries para ajustar o tamanho da fonte com base no tamanho da tela */
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 14px; /* Por exemplo, 14px para telas menores que 768px */
+    }
+}
+
+@media screen and (max-width: 780px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    html{
+        font-size: 8px;
+    }
+
+}
+
 
 
 /*a {*/
