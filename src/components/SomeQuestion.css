@@ -1,0 +1,31 @@
+.container_some_question{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 40px;
+}
+
+.container_some_question h2{
+    text-align: center;
+    font-family: "Salesforce Sans Bold";
+}
+.container_some_question button {
+    background-color: transparent;
+    border: 1px solid #0d99d5;
+    border-radius: 6px;
+    width: 40%;
+    height: 12%;
+    transition: ease 0.5s;
+}
+
+.container_some_question button:hover{
+    background-color: var(--cor-primaria);
+    color: white;
+}
+@media screen and (max-width: 1080px){
+    .container_some_question{
+        width: 50%;
+    }
+}
