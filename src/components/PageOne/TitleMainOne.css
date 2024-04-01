@@ -5,13 +5,16 @@
     /*display: flex;*/
     display: flex;
     align-items: center;
-    width: 80%;
-    height: 60%;
-    margin: 0 auto;
+    flex-direction: column;
+    width: 70%;
+    height: 20%;
+    margin: 16rem auto 5rem auto;
+    justify-content: center;
 }
 
 .container h2{
     margin-bottom: 2rem;
+    font-size: 2em;
 }
 
 title_p, title_h2{
@@ -19,9 +22,15 @@ title_p, title_h2{
     text-align: center;
 }
 p{
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1.6em;
+}
+@media screen and (max-width: 1300px){
+    h2{
+        font-size: 1.6em;
+    }
+    p{
+        font-size: 1.4em;
+    }
 }
 
-h2{
-    font-size: 2rem;
-}
