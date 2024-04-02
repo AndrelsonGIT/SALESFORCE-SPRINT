@@ -10,9 +10,17 @@ const Header = () => {
                     <Link to={"/"}> <img src={SalesforceLogo} className="header_img" alt="Salesforce Logo"/></Link>
                     <div >
                         <ul className="header_ul">
-                            <li className="header_li"><Link to={"/produtos"}> Por que a Salesforce </Link><img  src={downIcon} alt="Seta para baixo"/></li>
-                            <li className="header_li "><Link to={"/produtos"}><a className="header_a" href="">Produtos</a></Link><img src={downIcon}
-                                                                                                        alt="Seta para baixo"/></li>
+                            <li className="header_li"><Link to={"/equipe"}> Equipe </Link><img src={downIcon}
+                                                                                               alt="Seta para baixo"/>
+                            </li>
+                            <li className="header_li "><Link to={"/produtos"}><a className="header_a"
+                                                                                 href="">Produtos</a></Link><img
+                                src={downIcon}
+                                alt="Seta para baixo"/></li>
+                            <li className="header_li "><Link to={"/Login"}><a className="header_a"
+                                                                                 href="">Login</a></Link><img
+                                src={downIcon}
+                                alt="Seta para baixo"/></li>
                         </ul>
                     </div>
                 </div>

@@ -1,0 +1,146 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #032D60;
+}
+.main_container{
+    width: 100%;
+    height: vh;
+}
+.cabecalho{
+    background-color: #FFFFFF;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid black;
+    position: fixed;
+    display: flex;
+    height: 70px;
+    padding: 0 25px;
+    z-index: 1;
+}
+.cabecalho__conteudo{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 20px;
+}
+.cabecalho__conteudo__imagem{
+    max-width: 14%;
+    height: auto;
+}
+.cabecalho__conteudo a{
+    font-size: 19px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10em;
+    gap: 80px;
+}
+.principal__conteudo{
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+}
+.principal__conteudo p{
+    text-align: left;
+}
+.principal__conteudo__texto{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.principal__container__ideias{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 70px 20px;
+    width: 370px;
+    height: 287px;
+    box-shadow: 10px 10px 5px 0px rgba(62, 62, 62, 0.23);
+}
+/* DEPRECATED BELOW*/
+.principal__container__titulo{
+    display: initial;
+    position: absolute;
+    align-self: center;
+}
+.principal__container__ideias__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+.principal__container__ideias__cabecalho img{
+    width: 100%;
+    display: initial;
+    margin-top: -70px;
+    z-index: -1;
+    border-radius: 5% 5% 0 1%;
+}
+
+.botao{
+    border: 1px solid #0176D3;
+    background-color: white;
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    height:60px;
+
+}
+.botao:hover{
+    background-color: #b1dbf8;
+    border: 1px solid black;
+}
+.rodape{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+.titulo_Principal{
+    align-self: center;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+
+}
+.titulo h2{
+    font-size: 60px;
+}
+.principal__container__ideias__cabecalho__persoA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.principal__container__ideias__cabecalho__persoA img{
+    border: 2px solid black;
+    border-radius: 4%;
+}
+.foto{
+    width: 170px;
+    height: 175px;
+}
+#fotoGab{
+    width: 170px;
+    height: 175px;
+}
