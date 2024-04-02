@@ -1,0 +1,66 @@
+.main_container_card{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card_container{
+    width: 30%;
+    height: 70%;
+    border: 1px solid var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 6px;
+}
+
+.card_container button{
+    background-color: white;
+    width: 50%;
+    height: 10%;
+    border-radius: 6px;
+    border: 1px solid #0d81d6;
+    transition: ease-in 0.3s;
+}
+.card_container button:hover{
+    background-color: #0d81d6;
+    color: white;
+}
+.card_marketing{
+    background-color: #ffca90;
+}
+
+.card_sales{
+    background-color: #caedeb;
+}
+.card_service{
+    background-color: #f99898;
+}
+.card_container h3{
+    font-size: 2.0rem;
+}
+.h2_container{
+    display: flex;
+    justify-content: center;
+
+}
+.h2_container{
+    margin-top: 60px;
+    font-size: 2rem;
+}
+.sales_img{
+    width: 30%;
+}
+
+@media screen and (max-width: 900px){
+    .main_container_card{
+        flex-direction: column;
+    }
+    .card_container{
+        width: 40%;
+    }
+}
