@@ -11,7 +11,7 @@
 @media screen and (max-width: 800px) {
     .group_cards_container{
         flex-direction: column;
-        gap: 36px;
+        gap: 35px;
     }
     .group_cards_container img{
         width: 32%;
