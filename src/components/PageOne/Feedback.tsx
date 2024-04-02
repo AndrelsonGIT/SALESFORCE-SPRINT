@@ -1,5 +1,5 @@
 import "./Feedback.css"
-import aspas from "../assets/Group.png"
+import aspas from "../../assets/Group.png"
 
 const Feedback = ()=>{
     const texto :string = "Após a adoção de soluções Salesforce, pudemos trabalhar de forma muito mais objetiva e direcionada graças à qualidade dos dados e insights que as ferramentas nos oferecem."

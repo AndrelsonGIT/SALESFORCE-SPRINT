@@ -1,16 +1,22 @@
-import Header from "./components/header/Header.tsx";
-import SpringContainer from "./components/PageOne/SpringContainer.tsx";
-import MainPageOne from "./components/PageOne/MainPageOne.tsx";
 import "./App.css"
-import Footer from "./components/PageOne/Footer.tsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import PageOne from "./components/PageOne/PageOne.tsx";
+import PageProducts from "./components/Products/PageProducts.tsx";
+// import {BrowserRouter, Routes, Route} from "react-router-dom";
+// import PageProducts from "./components/Products/PageProducts.tsx";
 function App() {
 
   return (
     <>
-        <Header></Header>
-        <SpringContainer></SpringContainer>
-        <MainPageOne></MainPageOne>
-        <Footer></Footer>
+    <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<PageOne/>}></Route>
+        <Route path={"/produtos"} element={<PageProducts/>}></Route>
+    </Routes>
+    </BrowserRouter>
+
+
+
     </>
   )
 }
