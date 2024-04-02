@@ -4,7 +4,7 @@ const Footer = ()=>{
         <>
             <footer>
                 <h4>Salesforce <span>&#174;</span></h4>
-                <h5>Entre em contato: 0800 891 18827</h5>
+                <h5>Entre em contato: 0800 891 1887</h5>
             </footer>
         </>
     )
