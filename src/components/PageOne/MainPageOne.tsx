@@ -1,11 +1,11 @@
 import TitleMainOne from "./TitleMainOne.tsx";
 import "./MainPageOne.css"
 import salesCloud from "../../assets/cloud_salesforce_hdplus.png"
-import GroupCards from "../GroupCards.tsx";
-import Feedback from "../Feedback.tsx";
+import GroupCards from "./GroupCards.tsx";
+import Feedback from "./Feedback.tsx";
 import CRMComponent from "./CRMComponent.tsx";
-import HorizontalBoxText from "../HorizontalBoxText.tsx";
-import SomeQuestion from "../SomeQuestion.tsx";
+import HorizontalBoxText from "./HorizontalBoxText.tsx";
+import SomeQuestion from "./SomeQuestion.tsx";
 const MainPageOne = ()=>{
     const titleString:string = "O que é a Salesforce"
     const titleDesc:string = "A Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.\n"
